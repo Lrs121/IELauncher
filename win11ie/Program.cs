@@ -18,7 +18,7 @@ namespace Main
             }
             else
             {
-                URL = "http://www.google.com"; // home page
+                URL = "about:blank"; // home page
             }
 
             // Call the IE instance to open the specified URL 
