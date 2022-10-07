@@ -15,13 +15,13 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_3B40497C1D004B3C9A23D6895F6B7BF4"
+        "MsmKey" = "8:_67FDE6BDED104AB0B09DBE60FD8FF41C"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_D53342F9D4814F1EAC1D1199B6153F24"
+        "MsmKey" = "8:_6F7733E618C74616BC065D087B0DD975"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -50,6 +50,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
             }
         }
         "Release"
@@ -57,7 +65,7 @@
         "DisplayName" = "8:Release"
         "IsDebugOnly" = "11:FALSE"
         "IsReleaseOnly" = "11:TRUE"
-        "OutputFilename" = "8:Release\\win11ie-setup.msi"
+        "OutputFilename" = "8:Release\\IELauncher.msi"
         "PackageFilesAs" = "3:2"
         "PackageFileSize" = "3:-2147483648"
         "CabType" = "3:1"
@@ -80,6 +88,11 @@
                     {
                     "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
                     "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.NetCore.CoreRuntime.6.0.x64"
+                    {
+                    "Name" = "8:.NET Runtime 6.0.8 (x64)"
+                    "ProductCode" = "8:Microsoft.NetCore.CoreRuntime.6.0.x64"
                     }
                 }
             }
@@ -114,9 +127,9 @@
         }
         "File"
         {
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_3B40497C1D004B3C9A23D6895F6B7BF4"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_6F7733E618C74616BC065D087B0DD975"
             {
-            "SourcePath" = "8:..\\win11ie\\iexplore.ico"
+            "SourcePath" = "8:..\\IELauncher\\iexplore.ico"
             "TargetName" = "8:iexplore.ico"
             "Tag" = "8:"
             "Folder" = "8:_9C3912A9362449FBB91FA4ACD123FE37"
@@ -191,7 +204,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Internet Explorer Launcher"
         "ProductCode" = "8:{1233583A-9905-42E3-AE39-660F9BCF7D1A}"
-        "PackageCode" = "8:{DAC58C28-A3C5-4F35-87EA-782D9B255239}"
+        "PackageCode" = "8:{80316690-5D21-4F2D-A30B-BAA25DEDABD9}"
         "UpgradeCode" = "8:{8C401C9F-FD6E-4FBC-8379-781A0F656A69}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
@@ -311,7 +324,7 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_0421E66870BD4E1EB8D921EE14071F76"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_29534940580B44B78AE749C1276B27FC"
             {
             "Name" = "8:Internet Explorer Launcher"
             "Arguments" = "8:"
@@ -319,13 +332,13 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_D53342F9D4814F1EAC1D1199B6153F24"
+            "Target" = "8:_67FDE6BDED104AB0B09DBE60FD8FF41C"
             "Folder" = "8:_D948EBCE642C4CB88964A3E1A395C181"
             "WorkingFolder" = "8:_9C3912A9362449FBB91FA4ACD123FE37"
-            "Icon" = "8:_3B40497C1D004B3C9A23D6895F6B7BF4"
+            "Icon" = "8:_6F7733E618C74616BC065D087B0DD975"
             "Feature" = "8:"
             }
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_3EEA55EE9380429BA08E6D9BF3858E25"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_312E4267A94F4D52833A561683D2CC9D"
             {
             "Name" = "8:Internet Explorer Launcher"
             "Arguments" = "8:"
@@ -333,10 +346,10 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_D53342F9D4814F1EAC1D1199B6153F24"
+            "Target" = "8:_67FDE6BDED104AB0B09DBE60FD8FF41C"
             "Folder" = "8:_13AB2DF0B33C4681A1E6979A903088EC"
             "WorkingFolder" = "8:_9C3912A9362449FBB91FA4ACD123FE37"
-            "Icon" = "8:_3B40497C1D004B3C9A23D6895F6B7BF4"
+            "Icon" = "8:_6F7733E618C74616BC065D087B0DD975"
             "Feature" = "8:"
             }
         }
@@ -466,7 +479,7 @@
                             "ContextData" = "8:"
                             "Attributes" = "3:0"
                             "Setting" = "3:2"
-                            "Value" = "8:Please read \"https://raw.githubusercontent.com/develc/win11ie/master/LICENSE.txt\". develc's Internet Explroer Launcher is a fork of a software originally written by https://github.com/medic17 (https://github.com/medic17/win11ie)"
+                            "Value" = "8:Please read \"https://raw.githubusercontent.com/develc/IELauncher/master/LICENSE.txt\". develc's Internet Explroer Launcher is a fork of a software originally written by https://github.com/medic17 (https://github.com/medic1/win11ie)"
                             "DefaultValue" = "8:#1202"
                             "UsePlugInResources" = "11:TRUE"
                             }
@@ -661,7 +674,7 @@
                             "ContextData" = "8:"
                             "Attributes" = "3:0"
                             "Setting" = "3:2"
-                            "Value" = "8:Please read \"https://raw.githubusercontent.com/develc/win11ie/master/LICENSE.txt\". develc's Internet Explroer Launcher is a fork of a software originally written by https://github.com/medic17 (https://github.com/medic1/win11ie)"
+                            "Value" = "8:Please read \"https://raw.githubusercontent.com/develc/IELauncher/master/LICENSE.txt\". develc's Internet Explroer Launcher is a fork of a software originally written by https://github.com/medic17 (https://github.com/medic1/win11ie)"
                             "DefaultValue" = "8:#1202"
                             "UsePlugInResources" = "11:TRUE"
                             }
@@ -738,9 +751,9 @@
         }
         "ProjectOutput"
         {
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_D53342F9D4814F1EAC1D1199B6153F24"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_67FDE6BDED104AB0B09DBE60FD8FF41C"
             {
-            "SourcePath" = "8:..\\win11ie\\obj\\Release\\net6.0-windows\\apphost.exe"
+            "SourcePath" = "8:..\\IELauncher\\obj\\Release\\net6.0-windows\\apphost.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_9C3912A9362449FBB91FA4ACD123FE37"
