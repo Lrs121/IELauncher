@@ -1,5 +1,5 @@
 ﻿
-namespace win11ie
+namespace IELauncher
 {
     
     class Program

@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32922.545
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "win11ie", "win11ie\win11ie.csproj", "{38B3AEC6-FC7C-4316-B033-00C7D8125968}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IELauncher", "win11ie\IELauncher.csproj", "{38B3AEC6-FC7C-4316-B033-00C7D8125968}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "IELauncher-setup", "win11ie-setup\win11ie-setup.vdproj", "{20D64264-143C-4447-AF6D-AF8695F98F2B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,8 @@ Global
 		{38B3AEC6-FC7C-4316-B033-00C7D8125968}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38B3AEC6-FC7C-4316-B033-00C7D8125968}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38B3AEC6-FC7C-4316-B033-00C7D8125968}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20D64264-143C-4447-AF6D-AF8695F98F2B}.Debug|Any CPU.ActiveCfg = Debug
+		{20D64264-143C-4447-AF6D-AF8695F98F2B}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
