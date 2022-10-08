@@ -61,6 +61,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
         "Release"
         {
@@ -77,6 +85,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
+            }
         }
     }
     "Deployable"
@@ -245,7 +269,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Internet Explorer Launcher"
         "ProductCode" = "8:{DDDA8415-F391-4EAF-8A54-DF99E18BD773}"
-        "PackageCode" = "8:{51A118E8-54D6-45FA-A6F0-58DD7618E30A}"
+        "PackageCode" = "8:{E74E6291-B7EA-42D2-96C9-4E41E7749043}"
         "UpgradeCode" = "8:{815B85C8-159A-4343-BCB9-71606837330A}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
@@ -261,7 +285,7 @@
         "ARPCONTACT" = "8:develc"
         "Keywords" = "8:"
         "ARPCOMMENTS" = "8:"
-        "ARPURLINFOABOUT" = "8:https://github.com/develc"
+        "ARPURLINFOABOUT" = "8:"
         "ARPPRODUCTICON" = "8:_D9D14A42FF7147AAB9C0690071930D78"
         "ARPIconIndex" = "3:0"
         "SearchPath" = "8:"
