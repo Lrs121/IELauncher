@@ -7,3 +7,5 @@ A way to launch Internet Explorer on Windows 11 (but it should work also on olde
 First version released!
 
 The installer can be downloaded by clicking here: <a href="https://github.com/develc/IELauncher/releases/download/v1.0.0/IELauncher-setup.msi"><button>IELauncher-setup.msi</button></a>
+
+The stand-alone version can be downloaded by clicking here: <a href="https://github.com/develc/IELauncher/releases/download/v1.0.0/IELauncher.exe"><button>IELauncher.exe</button></a>
