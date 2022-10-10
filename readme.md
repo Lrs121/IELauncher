@@ -33,6 +33,6 @@ The stand-alone version can be downloaded by clicking here: <a href="https://git
 * Select Open folder in File Explorer
 * Under File Explorer, navigate under Release, here you'll find 2 files (.exe and .msi)
 
-**Note that setup.exe needs the .msi file to be in the same folder, while the .msi file is indipendent and gets installed by msiexec automatically when double-clicked in Windows File Explorer**
+*Note that setup.exe needs the .msi file to be in the same folder, while the .msi file is indipendent and gets installed by msiexec automatically when double-clicked in Windows File Explorer*
 
-**To uninstall the package, use the Uninstall option in right-click menu of the .msi file, or use the Control Panel/Settings.
+*To uninstall the package, use the Uninstall option in right-click menu of the .msi file, or use the Control Panel/Settings.*
