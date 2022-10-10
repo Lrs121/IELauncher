@@ -6,18 +6,21 @@ A way to launch Internet Explorer on Windows 11 (but it should work also on olde
 
 First version released!
 
-The installer can be downloaded by clicking here: <a href="https://github.com/develc/IELauncher/releases/download/v1.0.0/IELauncher-setup.msi"><button>IELauncher-setup.msi</button></a>
+The pre-built installer can be downloaded by clicking here: <a href="https://github.com/develc/IELauncher/releases/download/v1.0.0/IELauncher-setup.msi"><button>IELauncher-setup.msi</button></a>
 
-The stand-alone version can be downloaded by clicking here: <a href="https://github.com/develc/IELauncher/releases/download/v1.0.0/IELauncher.exe"><button>IELauncher.exe</button></a>
+The pre-built stand-alone version can be downloaded by clicking here: <a href="https://github.com/develc/IELauncher/releases/download/v1.0.0/IELauncher.exe"><button>IELauncher.exe</button></a>
 
 
 ## Building
-**Prerequisites:**
+
+### Prerequisites:
+
 * Install Microsoft Visual Studio (I used Community Edition 2022) with the .NET desktop workload
 * (*Not needed if building standalone .EXE file*) Install the "Microsoft Visual Studio Installer Projects" extension (Continue without code --> Extensions --> Manage Extensions --> Online --> Search box --> write "Microsoft Visual Studio Installer Projects" --> install)
 
-**To build standalone .EXE:**
-* Open the solution file in Visual Studio
+### To build standalone .EXE:
+
+*  Open the solution file in Visual Studio
 * Make sure the IELauncher project is selected in the Solution Explorer window
 * Click on Build --> Publish Selection
 * Click on Publish
@@ -25,7 +28,8 @@ The stand-alone version can be downloaded by clicking here: <a href="https://git
 
 *You should now be able to run the resulting .EXE file as a standalone program. You can move it around without taking with you all the other files that are in the folder.*
 
-**To build an installable package:**
+### To build an installable package:
+
 * Open the solution file in Visual Studio
 * Right-click on the IELauncher in the Solution Explorer window
 * Select "Build"
