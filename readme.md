@@ -35,7 +35,7 @@ The pre-built stand-alone version can be downloaded by clicking here: <a href="h
 * Select "Build"
 * Once it has finished, right-click on the IELauncher in the Solution Explorer window
 * Select Open folder in File Explorer
-* Under File Explorer, navigate under Release, here you'll find 2 files (.exe and .msi)
+* In the File Explorer window, navigate under Release, here you'll find 2 files (.exe and .msi)
 
 *Note that setup.exe needs the .msi file to be in the same folder, while the .msi file is indipendent and gets installed by msiexec automatically when double-clicked in Windows File Explorer*
 
