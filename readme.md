@@ -1,6 +1,6 @@
 # Internet Explorer Launcher
 
-A way to launch Internet Explorer on Windows 11
+Launch Internet Explorer on Windows 11
 
 <hr>
 
