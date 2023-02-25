@@ -68,6 +68,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
             }
         }
         "Release"
@@ -268,24 +276,24 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Internet Explorer Launcher"
-        "ProductCode" = "8:{DDDA8415-F391-4EAF-8A54-DF99E18BD773}"
-        "PackageCode" = "8:{E74E6291-B7EA-42D2-96C9-4E41E7749043}"
+        "ProductCode" = "8:{A6233FA0-011D-4542-8B1C-1A718C540C31}"
+        "PackageCode" = "8:{00F19482-C55D-4C1A-9050-E6620AF10143}"
         "UpgradeCode" = "8:{815B85C8-159A-4343-BCB9-71606837330A}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:1.0.0"
-        "Manufacturer" = "8:develc"
+        "ProductVersion" = "8:1.0.1"
+        "Manufacturer" = "8:ciao1092"
         "ARPHELPTELEPHONE" = "8:"
-        "ARPHELPLINK" = "8:https://github.com/develc/IELauncher/issues"
+        "ARPHELPLINK" = "8:https://github.com/ciao1092/IELauncher/issues"
         "Title" = "8:Internet Explorer Launcher Setup"
         "Subject" = "8:"
-        "ARPCONTACT" = "8:develc"
+        "ARPCONTACT" = "8:ciao1092"
         "Keywords" = "8:"
-        "ARPCOMMENTS" = "8:"
-        "ARPURLINFOABOUT" = "8:"
+        "ARPCOMMENTS" = "8:Install ciao1092's Internet Explorer Launcher"
+        "ARPURLINFOABOUT" = "8:https://ciao1092.github.io"
         "ARPPRODUCTICON" = "8:_D9D14A42FF7147AAB9C0690071930D78"
         "ARPIconIndex" = "3:0"
         "SearchPath" = "8:"
