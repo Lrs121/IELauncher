@@ -2,14 +2,13 @@ body {
 	background-color: black;
 	color: limegreen;
 	font-family: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
-	padding: 0;
+	padding: 10px;
 	margin: 0;
 }
 
-html,
-body {
-	padding: 0;
-	margin: 0;
+body,
+body>* {
+	box-sizing: border-box;
 }
 
 pre,
@@ -21,20 +20,25 @@ samp {
 }
 
 hr {
+	margin: 5px 0;
 	border: none;
 	border-top: 1px dashed currentColor;
 }
 
 .container {
-	padding: 10px;
-	margin: auto;
-	max-width: 800px;
+	padding: 0;
+	margin: 20px auto;
+	max-width: 1000px;
+	border: 1px dashed currentColor;
+}
+
+
+main {
 	text-align: justify;
 }
 
 footer {
-	margin-top: 40px;
-	padding-top: 10px;
+	padding: 10px;
 	border-top: 1px dashed currentColor;
 }
 
@@ -46,7 +50,12 @@ a:visited {
 }
 
 a:hover {
-	color: inherit;
+	color: fuchsia;
+}
+
+img {
+	color: fuchsia;
+	border: 1px dashed currentColor;
 }
 
 a:active {
@@ -60,17 +69,73 @@ a:active {
 	justify-content: space-evenly;
 }
 
+#indexAndDocContent>* {
+	padding: 10px
+}
+
 #docContent {
 	flex: 70;
 }
 
 #index {
 	flex: 30;
+	border-right: 1px dashed currentColor;
 }
 
-@media (max-width: 800px)
-{
+table,
+td,
+th {
+	padding: 10px 20px;
+	border: 1px dashed currentColor;
+	border-collapse: collapse;
+	text-align: left;
+}
+
+header {
+	padding: 10px;
+	text-align: center;
+	margin: 0;
+	border-bottom: 1px dashed currentColor;
+}
+/*
+h1::after,
+h2::after,
+h3::after,
+h4::after,
+h5::after,
+h6::after
+*/
+header > h1::after {
+	content: "";
+	width: 0.5em;
+	height: 0.3em;
+	transform: translate(0, 50%);
+	background-color: fuchsia;
+	display: inline-block;
+	animation: cursor-blink .9s infinite;
+}
+
+@keyframes cursor-blink {
+	0% {
+		opacity: 0;
+	}
+
+	50% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0;
+	}
+}
+
+@media (max-width: 800px) {
 	#indexAndDocContent {
 		flex-direction: column;
+	}
+
+	#index {
+		border-right: none;
+		border-bottom: 1px dashed currentColor;
 	}
 }

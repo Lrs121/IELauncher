@@ -2,10 +2,10 @@
 <views>
 	<view default="true">
 		<title>Command-line Options</title>
-		<path>cmdoptions.html</path>
+		<name>clioptions</name>
 	</view>
 	<view>
-		<title>View1</title>
-		<path>view1.html</path>
+		<title>GUI</title>
+		<name>gui</name>
 	</view>
 </views>
