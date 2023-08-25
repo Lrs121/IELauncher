@@ -30,11 +30,7 @@ hr {
 	margin: 20px auto;
 	max-width: 1000px;
 	border: 1px dashed currentColor;
-}
-
-
-main {
-	text-align: justify;
+	overflow: auto;
 }
 
 footer {
