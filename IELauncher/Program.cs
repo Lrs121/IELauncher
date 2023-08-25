@@ -47,19 +47,22 @@ namespace IELauncher
                             {
                                 case "url":
                                     if (!string.IsNullOrEmpty(argPart2))
-                                        Settings.Default.StartupURL = argPart2;            // Here the URL is
-                                    else                                                   // set into settings but settings
-                                        Settings.Default.StartupURL = "about:blank";       // are not saved on close
+                                        Settings.Default.StartupURL = argPart2;
+                                    else
+                                        Settings.Default.StartupURL = "about:blank";
                                     break;
                                 case "startupurl":
                                     Settings.Default.StartupURL = argPart2;
-                                    Settings.Default.Save(); // save settings before closing!
+                                    Settings.Default.Save();
                                     MessageBox.Show("The new startup URL is: " + Settings.Default.StartupURL);
                                     break;
                                 case "gui":
                                 case "GUI":
                                     if (argPart2.ToLower() == "true" || argPart2 == "1")
                                         showGui();
+                                    break;
+                                case "help":
+                                    Settings.Default.StartupURL = "https://ciao1092.github.io/IELauncher/index.html";
                                     break;
                                 default:
                                     ShowHelpAndQuit(argPart1);

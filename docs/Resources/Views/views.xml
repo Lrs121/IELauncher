@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<views>
+	<view default="true">
+		<title>Command-line Options</title>
+		<path>cmdoptions.html</path>
+	</view>
+	<view>
+		<title>View1</title>
+		<path>view1.html</path>
+	</view>
+</views>
