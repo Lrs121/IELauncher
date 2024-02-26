@@ -4,7 +4,14 @@ Launch Internet Explorer on Windows 11
 
 <hr>
 
-_Update (Aug 20 2023)_. I haven't updated the code in a while, but I am working on a GUI for settings.
+Released version 2.0.0
+
+
+The pre-built installer can be downloaded by clicking here: <a href="https://github.com/ciao1092/IELauncher/releases/download/v2.0.0/IELauncher-setup.msi"><button>IELauncher-setup.msi</button></a>  (614 KB)
+
+The pre-built framework-dependent version can be downloaded by clicking here: <a href="https://github.com/ciao1092/IELauncher/releases/download/v2.0.0/IELauncher.exe"><button>IELauncher.exe</button></a> (22.3 MB)
+
+The pre-built stand-alone version can be downloaded by clicking here: <a href="https://github.com/ciao1092/IELauncher/releases/download/v2.0.0/IELauncher-sc.exe"><button>IELauncher-sc.exe</button></a> (206 MB)
 
 <hr>
 
