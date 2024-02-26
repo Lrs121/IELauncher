@@ -7,11 +7,11 @@ Launch Internet Explorer on Windows 11
 Released version 2.0.0
 
 
-The pre-built installer can be downloaded by clicking here: <a href="https://github.com/ciao1092/IELauncher/releases/download/v2.0.0/IELauncher-setup.msi"><button>IELauncher-setup.msi</button></a>  (614 KB)
+The pre-built installer can be downloaded by clicking here: [IELauncher-setup.msi](https://github.com/ciao1092/IELauncher/releases/download/2.0.0/IELauncher-setup.msi) (614 KB)
 
-The pre-built framework-dependent version can be downloaded by clicking here: <a href="https://github.com/ciao1092/IELauncher/releases/download/v2.0.0/IELauncher.exe"><button>IELauncher.exe</button></a> (22.3 MB)
+The pre-built framework-dependent version can be downloaded by clicking here: [IELauncher.exe](https://github.com/ciao1092/IELauncher/releases/download/2.0.0/IELauncher.exe) (22.3 MB)
 
-The pre-built stand-alone version can be downloaded by clicking here: <a href="https://github.com/ciao1092/IELauncher/releases/download/v2.0.0/IELauncher-sc.exe"><button>IELauncher-sc.exe</button></a> (206 MB)
+The pre-built stand-alone version can be downloaded by clicking here: [IELauncher-sc.exe](https://github.com/ciao1092/IELauncher/releases/download/2.0.0/IELauncher-sc.exe) (206 MB)
 
 <hr>
 
