@@ -3,7 +3,7 @@
   <Profiles />
   <Settings>
     <Setting Name="StartupURL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">about:blank</Value>
+      <Value Profile="(Default)">https://ciao1092.github.io/IELauncher/</Value>
     </Setting>
   </Settings>
 </SettingsFile>

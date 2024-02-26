@@ -4,9 +4,9 @@
 "ProjectType" = "8:{978C614F-708E-4E1A-B201-565925725DBA}"
 "IsWebType" = "8:FALSE"
 "ProjectName" = "8:IELauncher-setup"
-"LanguageId" = "3:1033"
+"LanguageId" = "3:0"
 "CodePage" = "3:1252"
-"UILanguageId" = "3:1033"
+"UILanguageId" = "3:0"
 "SccProjectName" = "8:"
 "SccLocalPath" = "8:"
 "SccAuxPath" = "8:"
@@ -22,12 +22,6 @@
         "Entry"
         {
         "MsmKey" = "8:_30CA7F7025FD4E7EB4DD87CEABE05F95"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_9DBE96CA6F5647699802957ACE25CC8B"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -269,7 +263,7 @@
         }
         "MsiBootstrapper"
         {
-        "LangId" = "3:1033"
+        "LangId" = "3:0"
         "RequiresElevation" = "11:FALSE"
         }
         "Product"
@@ -292,7 +286,7 @@
         "Subject" = "8:"
         "ARPCONTACT" = "8:ciao1092"
         "Keywords" = "8:"
-        "ARPCOMMENTS" = "8:Install ciao1092's Internet Explorer Launcher"
+        "ARPCOMMENTS" = "8:Install Internet Explorer Launcher"
         "ARPURLINFOABOUT" = "8:https://ciao1092.github.io/"
         "ARPPRODUCTICON" = "8:_D9D14A42FF7147AAB9C0690071930D78"
         "ARPIconIndex" = "3:0"
@@ -405,7 +399,7 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_9DBE96CA6F5647699802957ACE25CC8B"
+            "Target" = "8:_F042E7E3839D4EC0A5E888D8E6C661C1"
             "Folder" = "8:_918381D1C22944CD80E32A258E402778"
             "WorkingFolder" = "8:_2D004DBFF97E4300A7357FFA7598421C"
             "Icon" = "8:_D9D14A42FF7147AAB9C0690071930D78"
@@ -419,7 +413,7 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_9DBE96CA6F5647699802957ACE25CC8B"
+            "Target" = "8:_F042E7E3839D4EC0A5E888D8E6C661C1"
             "Folder" = "8:_918381D1C22944CD80E32A258E402778"
             "WorkingFolder" = "8:_2D004DBFF97E4300A7357FFA7598421C"
             "Icon" = "8:_D9D14A42FF7147AAB9C0690071930D78"
@@ -918,9 +912,9 @@
         }
         "ProjectOutput"
         {
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_9DBE96CA6F5647699802957ACE25CC8B"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_F042E7E3839D4EC0A5E888D8E6C661C1"
             {
-            "SourcePath" = "8:..\\IELauncher\\obj\\Release\\net6.0-windows\\apphost.exe"
+            "SourcePath" = "8:..\\IELauncher\\obj\\Release\\net8.0-windows7.0\\apphost.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_2D004DBFF97E4300A7357FFA7598421C"
